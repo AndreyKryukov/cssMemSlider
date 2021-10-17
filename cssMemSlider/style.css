@@ -178,8 +178,8 @@ body {
 #m1:checked ~ .block__content .block__nav-active label:nth-child(1),
 #m2:checked ~ .block__content .block__nav-active label:nth-child(2),
 #m3:checked ~ .block__content .block__nav-active label:nth-child(3),
-#m5:checked ~ .block__content .block__nav-active label:nth-child(4),
-#m6:checked ~ .block__content .block__nav-active label:nth-child(5) {
+#m4:checked ~ .block__content .block__nav-active label:nth-child(4),
+#m5:checked ~ .block__content .block__nav-active label:nth-child(5) {
   background: rgb(0, 0, 0);
 }
 
@@ -217,12 +217,12 @@ input[name="m"] {
   margin-left: -40%;
 }
 
-#m5:checked ~ .block__slider .block__sliders .s1,
-#m5:checked ~ .block__content .block__description .block__text .s2 {
+#m4:checked ~ .block__slider .block__sliders .s1,
+#m4:checked ~ .block__content .block__description .block__text .s2 {
   margin-left: -60%;
 }
 
-#m6:checked ~ .block__slider .block__sliders .s1,
-#m6:checked ~ .block__content .block__description .block__text .s2 {
+#m5:checked ~ .block__slider .block__sliders .s1,
+#m5:checked ~ .block__content .block__description .block__text .s2 {
   margin-left: -80%;
 }
